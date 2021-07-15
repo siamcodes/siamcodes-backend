@@ -19,7 +19,7 @@ const blogSchema = new mongoose.Schema(
             type: {},
             required: true,
             min: 200,
-            max: 5000000
+            max: 10000000
         },
         excerpt: {
             type: String,
